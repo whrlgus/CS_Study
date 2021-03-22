@@ -1,5 +1,7 @@
 # Difference between Arrival Time and Burst Time in CPU Scheduling
 
+[링크](https://www.geeksforgeeks.org/difference-between-arrival-time-and-burst-time-in-cpu-scheduling/)
+
 CPU 스케쥴링 알고리즘은 작업 수행에 CPU time과 IO time이 필요하다. CPU time은 절차(process)를 수행하는데 걸리는 시간이고, IO time은 그 절차의 I/O 작업(operation)에 필요한 시간이다.
 
 여러 프로세스를 수행하기 위해서 FCFS, Shortest Job First와 같은 다양한 알고리즘이 있으며, Arrival Time, Burst Time, Waiting Time과 같은 time frame 값에 따라 최적화하기 위해 선택해야하는 알고리즘이 달라진다.
